@@ -1,0 +1,5 @@
+Meteor.call(testMethod)
+Meteor.call(testMethod)
+Meteor.call(testMethod)
+Meteor.call(testMethod)
+Meteor.call('testMethod')

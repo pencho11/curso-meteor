@@ -1,0 +1,10 @@
+{
+    "private": {
+        "MAIL_URL": "smtp://otrac744:codigofacil12345@smtp.gmail.com:587",
+        "SENDER_EMAILS": {
+            "SERVICES": "otrac744@gmail.com"
+        },
+        "REFRESH_PERMISSIONS": false,
+        "REFRESH_STATIC_PROFILES": false
+    }
+}

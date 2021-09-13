@@ -1,0 +1,421 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/node_modules/meteor/meteor/node_modules",
+      "path": "packages/meteor.js"
+    },
+    {
+      "path": "packages/meteor-base.js"
+    },
+    {
+      "path": "packages/mobile-experience.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-mongo/node_modules",
+      "path": "packages/npm-mongo.js"
+    },
+    {
+      "path": "packages/ecmascript-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules-runtime/node_modules",
+      "path": "packages/modules-runtime.js"
+    },
+    {
+      "path": "packages/modules-runtime-hot.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules/node_modules",
+      "path": "packages/modules.js"
+    },
+    {
+      "path": "packages/modern-browsers.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
+      "path": "packages/es5-shim.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/promise/node_modules",
+      "path": "packages/promise.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime-client/node_modules",
+      "path": "packages/ecmascript-runtime-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime-server/node_modules",
+      "path": "packages/ecmascript-runtime-server.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-compiler/node_modules",
+      "path": "packages/babel-compiler.js"
+    },
+    {
+      "path": "packages/hot-module-replacement.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/react-fast-refresh/node_modules",
+      "path": "packages/react-fast-refresh.js"
+    },
+    {
+      "sourceMap": "packages/ecmascript.js.map",
+      "path": "packages/ecmascript.js"
+    },
+    {
+      "path": "packages/babel-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/fetch/node_modules",
+      "path": "packages/fetch.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/inter-process-messaging/node_modules",
+      "path": "packages/inter-process-messaging.js"
+    },
+    {
+      "path": "packages/dynamic-import.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "path": "packages/ejson.js"
+    },
+    {
+      "sourceMap": "packages/diff-sequence.js.map",
+      "path": "packages/diff-sequence.js"
+    },
+    {
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/id-map.js.map",
+      "path": "packages/id-map.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "path": "packages/random.js"
+    },
+    {
+      "sourceMap": "packages/mongo-id.js.map",
+      "path": "packages/mongo-id.js"
+    },
+    {
+      "sourceMap": "packages/ordered-dict.js.map",
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "sourceMap": "packages/tracker.js.map",
+      "path": "packages/tracker.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo-decimal/node_modules",
+      "sourceMap": "packages/mongo-decimal.js.map",
+      "path": "packages/mongo-decimal.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "path": "packages/check.js"
+    },
+    {
+      "sourceMap": "packages/retry.js.map",
+      "path": "packages/retry.js"
+    },
+    {
+      "sourceMap": "packages/callback-hook.js.map",
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "sourceMap": "packages/ddp-common.js.map",
+      "path": "packages/ddp-common.js"
+    },
+    {
+      "path": "packages/reload.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/socket-stream-client/node_modules",
+      "sourceMap": "packages/socket-stream-client.js.map",
+      "path": "packages/socket-stream-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-client/node_modules",
+      "sourceMap": "packages/ddp-client.js.map",
+      "path": "packages/ddp-client.js"
+    },
+    {
+      "path": "packages/underscore.js"
+    },
+    {
+      "sourceMap": "packages/rate-limit.js.map",
+      "path": "packages/rate-limit.js"
+    },
+    {
+      "sourceMap": "packages/ddp-rate-limiter.js.map",
+      "path": "packages/ddp-rate-limiter.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
+      "path": "packages/logging.js"
+    },
+    {
+      "sourceMap": "packages/routepolicy.js.map",
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/boilerplate-generator/node_modules",
+      "sourceMap": "packages/boilerplate-generator.js.map",
+      "path": "packages/boilerplate-generator.js"
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "path": "packages/webapp.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-server/node_modules",
+      "sourceMap": "packages/ddp-server.js.map",
+      "path": "packages/ddp-server.js"
+    },
+    {
+      "path": "packages/ddp.js"
+    },
+    {
+      "sourceMap": "packages/allow-deny.js.map",
+      "path": "packages/allow-deny.js"
+    },
+    {
+      "path": "packages/mongo-dev-server.js"
+    },
+    {
+      "sourceMap": "packages/binary-heap.js.map",
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "path": "packages/mongo.js"
+    },
+    {
+      "path": "packages/jquery.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/minifier-css/node_modules",
+      "sourceMap": "packages/minifier-css.js.map",
+      "path": "packages/minifier-css.js"
+    },
+    {
+      "path": "packages/standard-minifier-css.js"
+    },
+    {
+      "path": "packages/standard-minifier-js.js"
+    },
+    {
+      "path": "packages/typescript.js"
+    },
+    {
+      "sourceMap": "packages/shell-server.js.map",
+      "path": "packages/shell-server.js"
+    },
+    {
+      "path": "packages/observe-sequence.js"
+    },
+    {
+      "path": "packages/reactive-var.js"
+    },
+    {
+      "sourceMap": "packages/htmljs.js.map",
+      "path": "packages/htmljs.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/blaze/node_modules",
+      "sourceMap": "packages/blaze.js.map",
+      "path": "packages/blaze.js"
+    },
+    {
+      "path": "packages/spacebars.js"
+    },
+    {
+      "path": "packages/templating-compiler.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/templating-runtime/node_modules",
+      "path": "packages/templating-runtime.js"
+    },
+    {
+      "path": "packages/blaze-hot.js"
+    },
+    {
+      "path": "packages/static-html.js"
+    },
+    {
+      "sourceMap": "packages/akryum_vue-component-dev-server.js.map",
+      "path": "packages/akryum_vue-component-dev-server.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/akryum_vue-component-dev-client/node_modules",
+      "path": "packages/akryum_vue-component-dev-client.js"
+    },
+    {
+      "path": "packages/akryum_vue-component.js"
+    },
+    {
+      "path": "packages/akryum_npm-check.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/akryum_vue/node_modules",
+      "path": "packages/akryum_vue.js"
+    },
+    {
+      "sourceMap": "packages/mdg_validated-method.js.map",
+      "path": "packages/mdg_validated-method.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/url/node_modules",
+      "path": "packages/url.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "path": "packages/accounts-base.js"
+    },
+    {
+      "path": "packages/sha.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/email/node_modules",
+      "path": "packages/email.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/accounts-password/node_modules",
+      "sourceMap": "packages/accounts-password.js.map",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "path": "packages/coffeescript.js"
+    },
+    {
+      "sourceMap": "packages/peerlibrary_middleware.js.map",
+      "path": "packages/peerlibrary_middleware.js"
+    },
+    {
+      "sourceMap": "packages/alanning_roles.js.map",
+      "path": "packages/alanning_roles.js"
+    },
+    {
+      "sourceMap": "packages/lacosta_method-hooks.js.map",
+      "path": "packages/lacosta_method-hooks.js"
+    },
+    {
+      "sourceMap": "packages/html-tools.js.map",
+      "path": "packages/html-tools.js"
+    },
+    {
+      "sourceMap": "packages/blaze-tools.js.map",
+      "path": "packages/blaze-tools.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/spacebars-compiler/node_modules",
+      "sourceMap": "packages/spacebars-compiler.js.map",
+      "path": "packages/spacebars-compiler.js"
+    },
+    {
+      "path": "packages/meteorhacks_ssr.js"
+    },
+    {
+      "sourceMap": "packages/socialize_server-presence.js.map",
+      "path": "packages/socialize_server-presence.js"
+    },
+    {
+      "path": "packages/raix_eventemitter.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/tmeasday_check-npm-versions/node_modules",
+      "sourceMap": "packages/tmeasday_check-npm-versions.js.map",
+      "path": "packages/tmeasday_check-npm-versions.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/aldeed_collection2/node_modules",
+      "sourceMap": "packages/aldeed_collection2.js.map",
+      "path": "packages/aldeed_collection2.js"
+    },
+    {
+      "sourceMap": "packages/aldeed_schema-index.js.map",
+      "path": "packages/aldeed_schema-index.js"
+    },
+    {
+      "sourceMap": "packages/aldeed_schema-deny.js.map",
+      "path": "packages/aldeed_schema-deny.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/matb33_collection-hooks/node_modules",
+      "sourceMap": "packages/matb33_collection-hooks.js.map",
+      "path": "packages/matb33_collection-hooks.js"
+    },
+    {
+      "sourceMap": "packages/socialize_server-time.js.map",
+      "path": "packages/socialize_server-time.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/socialize_base-model/node_modules",
+      "sourceMap": "packages/socialize_base-model.js.map",
+      "path": "packages/socialize_base-model.js"
+    },
+    {
+      "sourceMap": "packages/socialize_linkable-model.js.map",
+      "path": "packages/socialize_linkable-model.js"
+    },
+    {
+      "sourceMap": "packages/socialize_user-model.js.map",
+      "path": "packages/socialize_user-model.js"
+    },
+    {
+      "sourceMap": "packages/socialize_user-presence.js.map",
+      "path": "packages/socialize_user-presence.js"
+    },
+    {
+      "path": "packages/hot-code-push.js"
+    },
+    {
+      "path": "packages/launch-screen.js"
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "path": "app/global-imports.js",
+      "assets": {
+        "email_enroll_account.html": "assets/app/email_enroll_account.html",
+        "email_reset_password.html": "assets/app/email_reset_password.html",
+        "email_verify_email.html": "assets/app/email_verify_email.html"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "sourceMap": "app/app.js.map",
+      "path": "app/app.js",
+      "assets": {
+        "email_enroll_account.html": "assets/app/email_enroll_account.html",
+        "email_reset_password.html": "assets/app/email_reset_password.html",
+        "email_verify_email.html": "assets/app/email_verify_email.html"
+      }
+    },
+    {
+      "path": "packages/service-configuration.js"
+    }
+  ]
+}
